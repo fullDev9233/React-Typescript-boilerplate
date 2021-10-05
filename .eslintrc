@@ -1,12 +1,14 @@
 {
   "env": {
     "browser": true,
-    "es2021": true
+    "es2021": true,
+    "node": true
   },
   "extends": [
-    "prettier",
     "eslint:recommended",
     "plugin:react/recommended",
+    "plugin:prettier/recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:jsx-a11y/recommended"
   ],
@@ -27,6 +29,7 @@
     "no-const-assign": "error",
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "react/jsx-uses-react": "off",
+    "react/prop-types": "off",
     "react/react-in-jsx-scope": "off"
   },
   "settings": {

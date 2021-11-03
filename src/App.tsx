@@ -9,8 +9,8 @@ const App = () => (
   <Router>
     <Suspense fallback={<div>Loading...</div>}>
       <Switch>
-        <Route exact path='/' component={Home}/>
-        <Route exact path='/about' component={About}/>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/about" component={About} />
       </Switch>
     </Suspense>
   </Router>
